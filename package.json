@@ -1,0 +1,24 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpfingston/basic-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpfingston/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/bpfingston/basic-express-server#readme",
+  "dependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
