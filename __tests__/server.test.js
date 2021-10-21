@@ -16,7 +16,7 @@ describe('Testing server', () => {
   });
 
   it('Should return 500 if no name in the query string', async () => {
-    let response = await request.get('/person?name=');
+    const response = await request.get('/person?name=');
     expect(response.status).toBe(500);
   });
 
